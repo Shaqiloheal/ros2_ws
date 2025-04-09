@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_action_interfaces/action/Battery_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_action_interfaces/action/Battery_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "custom_action_interfaces/action/Battery_Result",
+        "fields": [
+          {
+            "name": "final_percentage",
+            "type": {
+              "type_id": 154,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_action_interfaces/action/Battery_GetResult_Response",
+      "hash_string": "RIHS01_59cc34bf02d9a2292af9cec6a2b98307d0a955ec53af50bf9a08c04e68266852"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Battery_Result",
+      "hash_string": "RIHS01_4c726d8f4083b8b72ecdb4852c4d3e2d912590a72fae2ecd703d9f5ba6fe0532"
+    }
+  ]
+}

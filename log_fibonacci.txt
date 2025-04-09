@@ -1,0 +1,9 @@
+{"feedback": {"partial_sequence": [0, 1, 1]}, "action": "/fibonacci", "time": 1744211021.0}
+{"feedback": {"partial_sequence": [0, 1, 1, 2]}, "action": "/fibonacci", "time": 1744211022.0}
+{"feedback": {"partial_sequence": [0, 1, 1, 2, 3]}, "action": "/fibonacci", "time": 1744211023.0}
+{"feedback": {"partial_sequence": [0, 1, 1, 2, 3, 5]}, "action": "/fibonacci", "time": 1744211024.0}
+{"feedback": {"partial_sequence": [0, 1, 1, 2, 3, 5, 8]}, "action": "/fibonacci", "time": 1744211025.0}
+{"feedback": {"partial_sequence": [0, 1, 1, 2, 3, 5, 8, 13]}, "action": "/fibonacci", "time": 1744211026.0}
+{"feedback": {"partial_sequence": [0, 1, 1, 2, 3, 5, 8, 13, 21]}, "action": "/fibonacci", "time": 1744211027.0}
+{"feedback": {"partial_sequence": [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]}, "action": "/fibonacci", "time": 1744211028.0}
+{"feedback": {"partial_sequence": [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]}, "action": "/fibonacci", "time": 1744211029.0}

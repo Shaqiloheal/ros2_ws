@@ -1,0 +1,3 @@
+[console_scripts]
+temperature_publisher = temperature_sensor.temperature_publisher:main
+temperature_subscriber = temperature_sensor.temperature_subscriber:main

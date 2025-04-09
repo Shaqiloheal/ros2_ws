@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="fibonacci" exec="fibonacci_action_server" name="fibonacci_action_server" output="screen"/>
+    <node pkg="fibonacci" exec="fibonacci_action_client" name="fibonacci_action_client" output="screen"/>
+</launch>

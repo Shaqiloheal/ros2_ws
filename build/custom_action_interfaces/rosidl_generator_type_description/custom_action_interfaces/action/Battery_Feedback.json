@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_action_interfaces/action/Battery_Feedback",
+      "fields": [
+        {
+          "name": "percentage_log",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_action_interfaces/action/Battery_Feedback",
+      "hash_string": "RIHS01_9860f1ffa063271fa443b5dc64cf0a34356b89614ad00f46dbf0c448768145ee"
+    }
+  ]
+}

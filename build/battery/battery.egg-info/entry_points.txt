@@ -1,0 +1,3 @@
+[console_scripts]
+battery_action_client = battery.battery_action_client:main
+battery_action_server = battery.battery_action_server:main

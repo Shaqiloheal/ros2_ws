@@ -1,0 +1,12 @@
+[console_scripts]
+monitor = monitor.monitor:main
+monitor_0 = monitor.monitor_0:main
+monitor_action = monitor.monitor_action:main
+monitor_bat = monitor.monitor_bat:main
+monitor_battery = monitor.monitor_battery:main
+monitor_battery_status = monitor.monitor_battery_status:main
+monitor_everything = monitor.monitor_everything:main
+monitor_fibonacci = monitor.monitor_fibonacci:main
+monitor_pubsub = monitor.monitor_pubsub:main
+monitor_services = monitor.monitor_services:main
+monitor_temperature = monitor.monitor_temperature:main

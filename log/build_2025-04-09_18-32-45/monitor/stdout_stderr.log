@@ -1,0 +1,75 @@
+running egg_info
+creating ../../build/monitor/monitor.egg-info
+writing ../../build/monitor/monitor.egg-info/PKG-INFO
+writing dependency_links to ../../build/monitor/monitor.egg-info/dependency_links.txt
+writing entry points to ../../build/monitor/monitor.egg-info/entry_points.txt
+writing requirements to ../../build/monitor/monitor.egg-info/requires.txt
+writing top-level names to ../../build/monitor/monitor.egg-info/top_level.txt
+writing manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+reading manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+writing manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shaqiloheal/ros2_ws/build/monitor/build
+creating /home/shaqiloheal/ros2_ws/build/monitor/build/lib
+creating /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_fibonacci.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_action.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_battery_status.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_services.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_pubsub.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_temperature.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/__init__.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_bat.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_battery.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_0.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+copying monitor/monitor_everything.py -> /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor
+running install
+running install_lib
+creating /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_fibonacci.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_action.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_battery_status.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_services.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_pubsub.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_temperature.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/__init__.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_bat.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_battery.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_0.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/shaqiloheal/ros2_ws/build/monitor/build/lib/monitor/monitor_everything.py -> /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_fibonacci.py to monitor_fibonacci.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_action.py to monitor_action.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_battery_status.py to monitor_battery_status.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_services.py to monitor_services.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_pubsub.py to monitor_pubsub.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor.py to monitor.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_temperature.py to monitor_temperature.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_bat.py to monitor_bat.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_battery.py to monitor_battery.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_0.py to monitor_0.cpython-312.pyc
+byte-compiling /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor_everything.py to monitor_everything.cpython-312.pyc
+running install_data
+creating /home/shaqiloheal/ros2_ws/install/monitor/share/ament_index
+creating /home/shaqiloheal/ros2_ws/install/monitor/share/ament_index/resource_index
+creating /home/shaqiloheal/ros2_ws/install/monitor/share/ament_index/resource_index/packages
+copying resource/monitor -> /home/shaqiloheal/ros2_ws/install/monitor/share/ament_index/resource_index/packages
+copying package.xml -> /home/shaqiloheal/ros2_ws/install/monitor/share/monitor
+running install_egg_info
+Copying ../../build/monitor/monitor.egg-info to /home/shaqiloheal/ros2_ws/install/monitor/lib/python3.12/site-packages/monitor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing monitor script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_0 script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_action script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_bat script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_battery script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_battery_status script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_everything script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_fibonacci script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_pubsub script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_services script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+Installing monitor_temperature script to /home/shaqiloheal/ros2_ws/install/monitor/lib/monitor
+writing list of installed files to '/home/shaqiloheal/ros2_ws/build/monitor/install.log'

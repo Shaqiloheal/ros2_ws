@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_action_interfaces/action/Battery_Goal",
+      "fields": [
+        {
+          "name": "cycles",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_action_interfaces/action/Battery_Goal",
+      "hash_string": "RIHS01_64fadb7fee8a0fec8cce4e90f15ea39161e403f5ebb5875d1d3eb1977f1f4564"
+    }
+  ]
+}

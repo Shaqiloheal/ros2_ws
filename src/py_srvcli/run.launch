@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="py_srvcli" exec="service" name="minimal_service" output="screen"/>
+    <node pkg="py_srvcli" exec="client" name="minimal_client_async" output="screen" args="2 3"/>
+</launch>

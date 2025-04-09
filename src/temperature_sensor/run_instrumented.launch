@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="temperature_sensor" exec="temperature_publisher" name="temperature_publisher" output="screen">
+    </node>
+
+    <node pkg="temperature_sensor" exec="temperature_subscriber" name="temperature_subscriber" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,5 @@
+int32 cycles
+---
+float32[] final_percentage
+---
+float32[] percentage_log

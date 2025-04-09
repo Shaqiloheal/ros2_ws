@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_action_interfaces",
+  "non_idl_tuples": [
+    "/home/shaqiloheal/ros2_ws/src/custom_action_interfaces:action/Fibonacci.action",
+    "/home/shaqiloheal/ros2_ws/src/custom_action_interfaces:action/Battery.action"
+  ]
+}

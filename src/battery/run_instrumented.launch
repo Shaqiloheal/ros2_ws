@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="battery" exec="battery_action_server" name="battery_action_server" output="screen" />
+    <node pkg="battery" exec="battery_action_client" name="battery_action_client" output="screen" />
+</launch>

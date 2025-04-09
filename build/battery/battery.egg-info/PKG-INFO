@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: battery
+Version: 0.0.0
+Summary: Battery action server and client for testing.
+Maintainer: shaqiloheal
+Maintainer-email: w.spalding.toc@gmail.com
+License: Apache-2.0
+License-File: LICENSE
