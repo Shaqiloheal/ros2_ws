@@ -68,6 +68,7 @@ include CMakeFiles/custom_action_interfaces.dir/progress.make
 
 CMakeFiles/custom_action_interfaces: /home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Fibonacci.action
 CMakeFiles/custom_action_interfaces: /home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Battery.action
+CMakeFiles/custom_action_interfaces: /home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Charge.action
 CMakeFiles/custom_action_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 CMakeFiles/custom_action_interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/custom_action_interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl

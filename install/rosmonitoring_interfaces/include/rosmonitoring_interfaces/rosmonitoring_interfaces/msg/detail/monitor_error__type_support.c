@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "rosmonitoring_interfaces/msg/detail/monitor_error__functions.h"
 #include "rosmonitoring_interfaces/msg/detail/monitor_error__struct.h"
+#include "rosmonitoring_interfaces/msg/detail/monitor_error__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "rosmonitoring_interfaces/msg/detail/monitor_error__type_support.h"
 
 #ifdef __cplusplus

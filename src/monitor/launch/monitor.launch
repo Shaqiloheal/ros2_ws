@@ -1,1 +1,4 @@
-<launch><node pkg="monitor" exec="monitor_bat" name="monitor_bat" output="screen" /></launch>
+<launch>
+    <node pkg="monitor" exec="battery_node_monitor" name="battery_node_monitor" output="screen" />
+    <node pkg="monitor" exec="charge_monitor" name="charge_monitor" output="screen" />
+</launch>

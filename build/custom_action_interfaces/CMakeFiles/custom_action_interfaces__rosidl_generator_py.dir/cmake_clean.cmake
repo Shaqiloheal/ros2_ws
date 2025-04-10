@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_battery_s.c.o"
   "CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_battery_s.c.o.d"
+  "CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_charge_s.c.o"
+  "CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_charge_s.c.o.d"
   "CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_fibonacci_s.c.o"
   "CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_fibonacci_s.c.o.d"
   "libcustom_action_interfaces__rosidl_generator_py.pdb"

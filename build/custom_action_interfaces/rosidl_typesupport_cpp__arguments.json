@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
     "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces:action/Fibonacci.idl",
-    "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces:action/Battery.idl"
+    "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces:action/Battery.idl",
+    "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces:action/Charge.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -25,6 +26,7 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces/action/Fibonacci.idl",
     "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces/action/Battery.idl",
+    "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces/action/Charge.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",

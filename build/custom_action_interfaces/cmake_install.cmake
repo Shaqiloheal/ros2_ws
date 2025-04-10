@@ -55,6 +55,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_action_interfaces/action" TYPE FILE FILES "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_type_description/custom_action_interfaces/action/Charge.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/custom_action_interfaces/custom_action_interfaces" TYPE DIRECTORY FILES "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_c/custom_action_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -375,11 +379,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_action_interfaces/action" TYPE FILE FILES "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces/action/Charge.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_action_interfaces/action" TYPE FILE FILES "/home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Fibonacci.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_action_interfaces/action" TYPE FILE FILES "/home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Battery.action")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_action_interfaces/action" TYPE FILE FILES "/home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Charge.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -79,6 +79,7 @@ rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__
 rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/custom_action_interfaces/action/Fibonacci.idl
 rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/custom_action_interfaces/action/Battery.idl
+rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/custom_action_interfaces/action/Charge.idl
 rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -98,6 +99,12 @@ rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__ro
 
 rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__type_support_c.cpp: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp
 
 CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o: CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp
@@ -127,16 +134,32 @@ CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_ty
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__type_support_c.cpp -o CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__type_support_c.cpp.s
 
+CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.o: CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp
+CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.o: CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.o -MF CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.o.d -o CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.o -c /home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp
+
+CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp > CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.i
+
+CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp -o CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.s
+
 # Object files for target custom_action_interfaces__rosidl_typesupport_fastrtps_c
 custom_action_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o" \
-"CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__type_support_c.cpp.o"
+"CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__type_support_c.cpp.o" \
+"CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.o"
 
 # External object files for target custom_action_interfaces__rosidl_typesupport_fastrtps_c
 custom_action_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o
 libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__type_support_c.cpp.o
+libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp.o
 libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: libcustom_action_interfaces__rosidl_generator_c.so
 libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
@@ -155,7 +178,7 @@ libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/li
 libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librcutils.so
 libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +191,8 @@ CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/battery__type_support_c.cpp
+CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/charge__type_support_c.cpp
 CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp
 	cd /home/shaqiloheal/ros2_ws/build/custom_action_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shaqiloheal/ros2_ws/src/custom_action_interfaces /home/shaqiloheal/ros2_ws/src/custom_action_interfaces /home/shaqiloheal/ros2_ws/build/custom_action_interfaces /home/shaqiloheal/ros2_ws/build/custom_action_interfaces /home/shaqiloheal/ros2_ws/build/custom_action_interfaces/CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color=$(COLOR)"

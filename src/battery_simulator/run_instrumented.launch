@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="battery_simulator" exec="battery_node" name="battery_node" output="screen" />
+</launch>

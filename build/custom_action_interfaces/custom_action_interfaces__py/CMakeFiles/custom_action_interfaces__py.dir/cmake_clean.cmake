@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_py/custom_action_interfaces/action/__init__.py"
   "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_py/custom_action_interfaces/action/_battery.py"
   "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_py/custom_action_interfaces/action/_battery_s.c"
+  "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_py/custom_action_interfaces/action/_charge.py"
+  "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_py/custom_action_interfaces/action/_charge_s.c"
   "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_py/custom_action_interfaces/action/_fibonacci.py"
   "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_py/custom_action_interfaces/action/_fibonacci_s.c"
   "CMakeFiles/custom_action_interfaces__py"

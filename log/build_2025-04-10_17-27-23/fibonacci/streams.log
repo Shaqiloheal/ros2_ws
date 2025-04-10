@@ -1,0 +1,23 @@
+[1.005s] Invoking command in '/home/shaqiloheal/ros2_ws/Backup Packages/fibonacci': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shaqiloheal/ros2_ws/build/fibonacci/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaqiloheal/ros2_ws/install/fibonacci/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fibonacci build --build-base /home/shaqiloheal/ros2_ws/build/fibonacci/build install --record /home/shaqiloheal/ros2_ws/build/fibonacci/install.log --single-version-externally-managed install_data
+[1.126s] running egg_info
+[1.134s] writing ../../build/fibonacci/fibonacci.egg-info/PKG-INFO
+[1.134s] writing dependency_links to ../../build/fibonacci/fibonacci.egg-info/dependency_links.txt
+[1.134s] writing entry points to ../../build/fibonacci/fibonacci.egg-info/entry_points.txt
+[1.134s] writing requirements to ../../build/fibonacci/fibonacci.egg-info/requires.txt
+[1.134s] writing top-level names to ../../build/fibonacci/fibonacci.egg-info/top_level.txt
+[1.150s] reading manifest file '../../build/fibonacci/fibonacci.egg-info/SOURCES.txt'
+[1.150s] adding license file 'LICENSE'
+[1.151s] writing manifest file '../../build/fibonacci/fibonacci.egg-info/SOURCES.txt'
+[1.151s] running build
+[1.151s] running build_py
+[1.151s] running install
+[1.154s] running install_lib
+[1.163s] running install_data
+[1.163s] running install_egg_info
+[1.171s] removing '/home/shaqiloheal/ros2_ws/install/fibonacci/lib/python3.12/site-packages/fibonacci-0.0.0-py3.12.egg-info' (and everything under it)
+[1.172s] Copying ../../build/fibonacci/fibonacci.egg-info to /home/shaqiloheal/ros2_ws/install/fibonacci/lib/python3.12/site-packages/fibonacci-0.0.0-py3.12.egg-info
+[1.172s] running install_scripts
+[1.232s] Installing fibonacci_action_client script to /home/shaqiloheal/ros2_ws/install/fibonacci/lib/fibonacci
+[1.233s] Installing fibonacci_action_server script to /home/shaqiloheal/ros2_ws/install/fibonacci/lib/fibonacci
+[1.233s] writing list of installed files to '/home/shaqiloheal/ros2_ws/build/fibonacci/install.log'
+[1.258s] Invoked command in '/home/shaqiloheal/ros2_ws/Backup Packages/fibonacci' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shaqiloheal/ros2_ws/build/fibonacci/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaqiloheal/ros2_ws/install/fibonacci/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fibonacci build --build-base /home/shaqiloheal/ros2_ws/build/fibonacci/build install --record /home/shaqiloheal/ros2_ws/build/fibonacci/install.log --single-version-externally-managed install_data

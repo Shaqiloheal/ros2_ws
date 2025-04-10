@@ -9,7 +9,8 @@ setup.py
 ../../build/monitor/monitor.egg-info/top_level.txt
 ../../build/monitor/monitor.egg-info/zip-safe
 monitor/__init__.py
-monitor/monitor.py
+monitor/battery_node_monitor.py
+monitor/charge_monitor.py
 monitor/monitor_0.py
 monitor/monitor_action.py
 monitor/monitor_bat.py

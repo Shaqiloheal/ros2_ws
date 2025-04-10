@@ -4,11 +4,13 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
     "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces:action/Fibonacci.idl",
-    "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces:action/Battery.idl"
+    "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces:action/Battery.idl",
+    "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces:action/Charge.idl"
   ],
   "ros_interface_files": [
     "/home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Fibonacci.action",
-    "/home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Battery.action"
+    "/home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Battery.action",
+    "/home/shaqiloheal/ros2_ws/src/custom_action_interfaces/action/Charge.action"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -42,6 +44,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces/action/Fibonacci.idl",
     "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces/action/Battery.idl",
+    "/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces/action/Charge.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
@@ -53,6 +56,7 @@
   ],
   "type_description_tuples": [
     "action/Fibonacci.idl:/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_type_description/custom_action_interfaces/action/Fibonacci.json",
-    "action/Battery.idl:/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_type_description/custom_action_interfaces/action/Battery.json"
+    "action/Battery.idl:/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_type_description/custom_action_interfaces/action/Battery.json",
+    "action/Charge.idl:/home/shaqiloheal/ros2_ws/build/custom_action_interfaces/rosidl_generator_type_description/custom_action_interfaces/action/Charge.json"
   ]
 }

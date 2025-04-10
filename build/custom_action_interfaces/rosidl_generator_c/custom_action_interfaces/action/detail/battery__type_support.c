@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "custom_action_interfaces/action/detail/battery__functions.h"
-#include "custom_action_interfaces/action/detail/battery__struct.h"
 #include "custom_action_interfaces/action/detail/battery__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "custom_action_interfaces/action/detail/battery__struct.h"
 
 #ifdef __cplusplus
 extern "C"

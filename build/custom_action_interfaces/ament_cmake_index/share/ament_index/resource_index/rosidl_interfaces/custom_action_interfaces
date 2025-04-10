@@ -1,4 +1,6 @@
 action/Battery.action
 action/Battery.idl
+action/Charge.action
+action/Charge.idl
 action/Fibonacci.action
 action/Fibonacci.idl

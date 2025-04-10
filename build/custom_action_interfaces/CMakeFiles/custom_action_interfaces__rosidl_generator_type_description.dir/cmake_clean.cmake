@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custom_action_interfaces__rosidl_generator_type_description"
   "rosidl_generator_type_description/custom_action_interfaces/action/Battery.json"
+  "rosidl_generator_type_description/custom_action_interfaces/action/Charge.json"
   "rosidl_generator_type_description/custom_action_interfaces/action/Fibonacci.json"
 )
 

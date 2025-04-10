@@ -76,6 +76,11 @@ CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_int
 CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__struct.hpp
 CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__traits.hpp
 CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__type_support.hpp
+CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/charge.hpp
+CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__builder.hpp
+CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__struct.hpp
+CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__traits.hpp
+CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__type_support.hpp
 CMakeFiles/custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -99,6 +104,7 @@ rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp: /opt/ros/jaz
 rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp: rosidl_adapter/custom_action_interfaces/action/Fibonacci.idl
 rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp: rosidl_adapter/custom_action_interfaces/action/Battery.idl
+rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp: rosidl_adapter/custom_action_interfaces/action/Charge.idl
 rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -137,15 +143,35 @@ rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__traits.hpp:
 rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__type_support.hpp: rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__type_support.hpp
 
+rosidl_generator_cpp/custom_action_interfaces/action/charge.hpp: rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_action_interfaces/action/charge.hpp
+
+rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__builder.hpp: rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__builder.hpp
+
+rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__struct.hpp: rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__struct.hpp
+
+rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__traits.hpp: rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__traits.hpp
+
+rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__type_support.hpp: rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__type_support.hpp
+
 rosidl_generator_cpp/custom_action_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/custom_action_interfaces/action/fibonacci.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_action_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 custom_action_interfaces__cpp: CMakeFiles/custom_action_interfaces__cpp
 custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/battery.hpp
+custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/charge.hpp
 custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__builder.hpp
 custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__struct.hpp
 custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__traits.hpp
 custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/battery__type_support.hpp
+custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__builder.hpp
+custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__struct.hpp
+custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__traits.hpp
+custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/charge__type_support.hpp
 custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/fibonacci__builder.hpp
 custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/fibonacci__struct.hpp
 custom_action_interfaces__cpp: rosidl_generator_cpp/custom_action_interfaces/action/detail/fibonacci__traits.hpp

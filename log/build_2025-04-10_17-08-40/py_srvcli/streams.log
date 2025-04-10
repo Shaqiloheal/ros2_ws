@@ -1,0 +1,23 @@
+[1.003s] Invoking command in '/home/shaqiloheal/ros2_ws/Backup Packages/py_srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shaqiloheal/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaqiloheal/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shaqiloheal/ros2_ws/build/py_srvcli/build install --record /home/shaqiloheal/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[1.124s] running egg_info
+[1.132s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.132s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.132s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.132s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.132s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.148s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.148s] adding license file 'LICENSE'
+[1.148s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.148s] running build
+[1.148s] running build_py
+[1.148s] running install
+[1.152s] running install_lib
+[1.160s] running install_data
+[1.160s] running install_egg_info
+[1.168s] removing '/home/shaqiloheal/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info' (and everything under it)
+[1.169s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/shaqiloheal/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info
+[1.169s] running install_scripts
+[1.229s] Installing client script to /home/shaqiloheal/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.229s] Installing service script to /home/shaqiloheal/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.229s] writing list of installed files to '/home/shaqiloheal/ros2_ws/build/py_srvcli/install.log'
+[1.250s] Invoked command in '/home/shaqiloheal/ros2_ws/Backup Packages/py_srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shaqiloheal/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaqiloheal/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shaqiloheal/ros2_ws/build/py_srvcli/build install --record /home/shaqiloheal/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

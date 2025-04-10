@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_action_interfaces/action/Charge_Feedback",
+      "fields": [
+        {
+          "name": "current_percentage",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_action_interfaces/action/Charge_Feedback",
+      "hash_string": "RIHS01_bfefcad021384b1c7e535aea7788f17b81611390c0ec5b664b7041e6519c5b59"
+    }
+  ]
+}
