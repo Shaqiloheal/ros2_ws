@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/fibonacci/fibonacci.egg-info/PKG-INFO
+writing dependency_links to ../../build/fibonacci/fibonacci.egg-info/dependency_links.txt
+writing entry points to ../../build/fibonacci/fibonacci.egg-info/entry_points.txt
+writing requirements to ../../build/fibonacci/fibonacci.egg-info/requires.txt
+writing top-level names to ../../build/fibonacci/fibonacci.egg-info/top_level.txt
+reading manifest file '../../build/fibonacci/fibonacci.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/fibonacci/fibonacci.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/shaqiloheal/ros2_ws/install/fibonacci/lib/python3.12/site-packages/fibonacci-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/fibonacci/fibonacci.egg-info to /home/shaqiloheal/ros2_ws/install/fibonacci/lib/python3.12/site-packages/fibonacci-0.0.0-py3.12.egg-info
+running install_scripts
+Installing fibonacci_action_client script to /home/shaqiloheal/ros2_ws/install/fibonacci/lib/fibonacci
+Installing fibonacci_action_server script to /home/shaqiloheal/ros2_ws/install/fibonacci/lib/fibonacci
+writing list of installed files to '/home/shaqiloheal/ros2_ws/build/fibonacci/install.log'

@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'battery_node = battery_simulator.battery_node:main',
             'battery_charge_server = battery_simulator.battery_charge_server:main',
+            'battery_cmd_vel_filter = battery_simulator.battery_cmd_vel_filter:main',
         ],
     },
 )

@@ -1,6 +1,9 @@
 [console_scripts]
 battery_node_monitor = monitor.battery_node_monitor:main
+battery_node_monitor_online = monitor.battery_node_monitor_online:main
 charge_monitor = monitor.charge_monitor:main
+charge_monitor_online = monitor.charge_monitor_online:main
+cmd_vel_monitor = monitor.cmd_vel_monitor:main
 monitor_0 = monitor.monitor_0:main
 monitor_action = monitor.monitor_action:main
 monitor_bat = monitor.monitor_bat:main

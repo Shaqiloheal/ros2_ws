@@ -10,6 +10,7 @@ setup.py
 ../../build/battery_simulator/battery_simulator.egg-info/zip-safe
 battery_simulator/__init__.py
 battery_simulator/battery_charge_server.py
+battery_simulator/battery_cmd_vel_filter.py
 battery_simulator/battery_node.py
 resource/battery_simulator
 test/test_copyright.py

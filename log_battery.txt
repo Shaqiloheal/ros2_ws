@@ -1,48 +1,77 @@
-{"data": 99.0, "topic": "battery_percentage", "time": 1744302930.0}
-{"data": 98.0, "topic": "battery_percentage", "time": 1744302931.0}
-{"data": 97.0, "topic": "battery_percentage", "time": 1744302932.0}
-{"data": 96.0, "topic": "battery_percentage", "time": 1744302933.0}
-{"data": 95.0, "topic": "battery_percentage", "time": 1744302934.0}
-{"data": 94.0, "topic": "battery_percentage", "time": 1744302935.0}
-{"data": 93.0, "topic": "battery_percentage", "time": 1744302936.0}
-{"data": 92.0, "topic": "battery_percentage", "time": 1744302937.0}
-{"data": 91.0, "topic": "battery_percentage", "time": 1744302938.0}
-{"data": 90.0, "topic": "battery_percentage", "time": 1744302939.0}
-{"data": 89.0, "topic": "battery_percentage", "time": 1744302940.0}
-{"feedback": {"current_percentage": 89.0}, "action": "/charge_battery", "time": 1744302941.0}
-{"data": 90.0, "topic": "battery_percentage", "time": 1744302941.0}
-{"feedback": {"current_percentage": 90.0}, "action": "/charge_battery", "time": 1744302942.0}
-{"data": 91.0, "topic": "battery_percentage", "time": 1744302942.0}
-{"feedback": {"current_percentage": 91.0}, "action": "/charge_battery", "time": 1744302942.0}
-{"data": 92.0, "topic": "battery_percentage", "time": 1744302943.0}
-{"feedback": {"current_percentage": 92.0}, "action": "/charge_battery", "time": 1744302943.0}
-{"data": 93.0, "topic": "battery_percentage", "time": 1744302944.0}
-{"feedback": {"current_percentage": 93.0}, "action": "/charge_battery", "time": 1744302944.0}
-{"data": 94.0, "topic": "battery_percentage", "time": 1744302945.0}
-{"feedback": {"current_percentage": 94.0}, "action": "/charge_battery", "time": 1744302945.0}
-{"data": 95.0, "topic": "battery_percentage", "time": 1744302946.0}
-{"feedback": {"current_percentage": 95.0}, "action": "/charge_battery", "time": 1744302946.0}
-{"data": 96.0, "topic": "battery_percentage", "time": 1744302947.0}
-{"feedback": {"current_percentage": 96.0}, "action": "/charge_battery", "time": 1744302947.0}
-{"data": 97.0, "topic": "battery_percentage", "time": 1744302948.0}
-{"feedback": {"current_percentage": 97.0}, "action": "/charge_battery", "time": 1744302948.0}
-{"data": 98.0, "topic": "battery_percentage", "time": 1744302949.0}
-{"feedback": {"current_percentage": 98.0}, "action": "/charge_battery", "time": 1744302949.0}
-{"data": 99.0, "topic": "battery_percentage", "time": 1744302950.0}
-{"feedback": {"current_percentage": 99.0}, "action": "/charge_battery", "time": 1744302950.0}
-{"data": 100.0, "topic": "battery_percentage", "time": 1744302951.0}
-{"feedback": {"current_percentage": 100.0}, "action": "/charge_battery", "time": 1744302951.0}
-{"data": 99.0, "topic": "battery_percentage", "time": 1744302952.0}
-{"data": 98.0, "topic": "battery_percentage", "time": 1744302953.0}
-{"data": 97.0, "topic": "battery_percentage", "time": 1744302954.0}
-{"data": 96.0, "topic": "battery_percentage", "time": 1744302955.0}
-{"data": 95.0, "topic": "battery_percentage", "time": 1744302956.0}
-{"data": 94.0, "topic": "battery_percentage", "time": 1744302957.0}
-{"data": 93.0, "topic": "battery_percentage", "time": 1744302958.0}
-{"data": 92.0, "topic": "battery_percentage", "time": 1744302959.0}
-{"data": 91.0, "topic": "battery_percentage", "time": 1744302960.0}
-{"data": 90.0, "topic": "battery_percentage", "time": 1744302961.0}
-{"data": 89.0, "topic": "battery_percentage", "time": 1744302962.0}
-{"data": 88.0, "topic": "battery_percentage", "time": 1744302963.0}
-{"data": 87.0, "topic": "battery_percentage", "time": 1744302964.0}
-{"data": 86.0, "topic": "battery_percentage", "time": 1744302965.0}
+{"current_percentage": 98.0, "spec": "star(optional((valid_charge_request:eps)*(star(charging_feedback:eps)*(charging_result:eps))))", "time": 1744379051.0, "verdict": false}
+{"current_percentage": 98.0, "spec": "0", "time": 1744379051.0, "verdict": false}
+{"current_percentage": 99.0, "spec": "0", "time": 1744379052.0, "verdict": false}
+{"current_percentage": 99.0, "spec": "0", "time": 1744379052.0, "verdict": false}
+{"current_percentage": 100.0, "spec": "0", "time": 1744379052.0, "verdict": false}
+{"current_percentage": 100.0, "spec": "0", "time": 1744379052.0, "verdict": false}
+{"current_percentage": 97.0, "time": 1744379190.0, "verdict": "currently_false"}
+{"current_percentage": 98.0, "time": 1744379191.0, "verdict": "currently_false"}
+{"current_percentage": 99.0, "time": 1744379192.0, "verdict": "currently_false"}
+{"current_percentage": 100.0, "time": 1744379193.0, "verdict": "currently_false"}
+{"current_percentage": 97.0, "time": 1744379365.0, "verdict": "currently_false"}
+{"current_percentage": 97.0, "time": 1744379365.0, "verdict": "currently_false"}
+{"current_percentage": 98.0, "time": 1744379366.0, "verdict": "currently_false"}
+{"current_percentage": 98.0, "time": 1744379366.0, "verdict": "currently_false"}
+{"current_percentage": 99.0, "time": 1744379367.0, "verdict": "currently_false"}
+{"current_percentage": 99.0, "time": 1744379367.0, "verdict": "currently_false"}
+{"current_percentage": 100.0, "time": 1744379368.0, "verdict": "currently_false"}
+{"current_percentage": 100.0, "time": 1744379368.0, "verdict": "currently_false"}
+{"current_percentage": 96.0, "time": 1744379550.0, "verdict": "currently_false"}
+{"current_percentage": 96.0, "time": 1744379550.0, "verdict": "currently_false"}
+{"current_percentage": 97.0, "time": 1744379551.0, "verdict": "currently_false"}
+{"current_percentage": 97.0, "time": 1744379551.0, "verdict": "currently_false"}
+{"current_percentage": 98.0, "time": 1744379552.0, "verdict": "currently_false"}
+{"current_percentage": 98.0, "time": 1744379552.0, "verdict": "currently_false"}
+{"current_percentage": 99.0, "time": 1744379553.0, "verdict": "currently_false"}
+{"current_percentage": 99.0, "time": 1744379553.0, "verdict": "currently_false"}
+{"current_percentage": 100.0, "time": 1744379554.0, "verdict": "currently_false"}
+{"current_percentage": 100.0, "time": 1744379554.0, "verdict": "currently_false"}
+{"current_percentage": 98.0, "time": 1744379743.0, "verdict": "currently_true"}
+{"current_percentage": 98.0, "time": 1744379743.0, "verdict": "currently_true"}
+{"current_percentage": 99.0, "time": 1744379744.0, "verdict": "currently_true"}
+{"current_percentage": 99.0, "time": 1744379744.0, "verdict": "currently_true"}
+{"current_percentage": 100.0, "time": 1744379745.0, "verdict": "currently_true"}
+{"current_percentage": 100.0, "time": 1744379745.0, "verdict": "currently_true"}
+{"current_percentage": 94.0, "time": 1744380579.0, "verdict": "currently_true"}
+{"current_percentage": 94.0, "time": 1744380579.0, "verdict": "currently_true"}
+{"current_percentage": 95.0, "time": 1744380579.0, "verdict": "currently_true"}
+{"current_percentage": 95.0, "time": 1744380579.0, "verdict": "currently_true"}
+{"current_percentage": 96.0, "time": 1744380580.0, "verdict": "currently_true"}
+{"current_percentage": 96.0, "time": 1744380580.0, "verdict": "currently_true"}
+{"current_percentage": 97.0, "time": 1744380581.0, "verdict": "currently_true"}
+{"current_percentage": 97.0, "time": 1744380581.0, "verdict": "currently_true"}
+{"current_percentage": 98.0, "time": 1744380582.0, "verdict": "currently_true"}
+{"current_percentage": 98.0, "time": 1744380582.0, "verdict": "currently_true"}
+{"current_percentage": 99.0, "time": 1744380583.0, "verdict": "currently_true"}
+{"current_percentage": 99.0, "time": 1744380583.0, "verdict": "currently_true"}
+{"current_percentage": 100.0, "time": 1744380584.0, "verdict": "currently_true"}
+{"current_percentage": 100.0, "time": 1744380584.0, "verdict": "currently_true"}
+{"current_percentage": 91.0, "time": 1744381032.0, "verdict": "currently_true"}
+{"current_percentage": 92.0, "time": 1744381033.0, "verdict": "currently_true"}
+{"current_percentage": 93.0, "time": 1744381034.0, "verdict": "currently_true"}
+{"current_percentage": 94.0, "time": 1744381035.0, "verdict": "currently_true"}
+{"current_percentage": 95.0, "time": 1744381036.0, "verdict": "currently_true"}
+{"current_percentage": 96.0, "time": 1744381037.0, "verdict": "currently_true"}
+{"current_percentage": 97.0, "time": 1744381037.0, "verdict": "currently_true"}
+{"current_percentage": 98.0, "time": 1744381038.0, "verdict": "currently_true"}
+{"current_percentage": 99.0, "time": 1744381039.0, "verdict": "currently_true"}
+{"current_percentage": 100.0, "time": 1744381040.0, "verdict": "currently_true"}
+{"current_percentage": 82.0, "time": 1744381087.0, "verdict": "currently_true"}
+{"current_percentage": 83.0, "time": 1744381088.0, "verdict": "currently_true"}
+{"current_percentage": 84.0, "time": 1744381089.0, "verdict": "currently_true"}
+{"current_percentage": 85.0, "time": 1744381089.0, "verdict": "currently_true"}
+{"current_percentage": 86.0, "time": 1744381090.0, "verdict": "currently_true"}
+{"current_percentage": 87.0, "time": 1744381091.0, "verdict": "currently_true"}
+{"current_percentage": 88.0, "time": 1744381092.0, "verdict": "currently_true"}
+{"current_percentage": 89.0, "time": 1744381093.0, "verdict": "currently_true"}
+{"current_percentage": 90.0, "time": 1744381094.0, "verdict": "currently_true"}
+{"current_percentage": 91.0, "time": 1744381095.0, "verdict": "currently_true"}
+{"current_percentage": 92.0, "time": 1744381096.0, "verdict": "currently_true"}
+{"current_percentage": 93.0, "time": 1744381097.0, "verdict": "currently_true"}
+{"current_percentage": 94.0, "time": 1744381098.0, "verdict": "currently_true"}
+{"current_percentage": 95.0, "time": 1744381099.0, "verdict": "currently_true"}
+{"current_percentage": 96.0, "time": 1744381100.0, "verdict": "currently_true"}
+{"current_percentage": 97.0, "time": 1744381101.0, "verdict": "currently_true"}
+{"current_percentage": 98.0, "time": 1744381102.0, "verdict": "currently_true"}
+{"current_percentage": 99.0, "time": 1744381103.0, "verdict": "currently_true"}
+{"current_percentage": 100.0, "time": 1744381104.0, "verdict": "currently_true"}

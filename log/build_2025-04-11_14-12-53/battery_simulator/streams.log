@@ -1,0 +1,23 @@
+[1.118s] Invoking command in '/home/shaqiloheal/ros2_ws/src/battery_simulator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shaqiloheal/ros2_ws/build/battery_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_simulator build --build-base /home/shaqiloheal/ros2_ws/build/battery_simulator/build install --record /home/shaqiloheal/ros2_ws/build/battery_simulator/install.log --single-version-externally-managed install_data
+[1.243s] running egg_info
+[1.251s] writing ../../build/battery_simulator/battery_simulator.egg-info/PKG-INFO
+[1.251s] writing dependency_links to ../../build/battery_simulator/battery_simulator.egg-info/dependency_links.txt
+[1.251s] writing entry points to ../../build/battery_simulator/battery_simulator.egg-info/entry_points.txt
+[1.251s] writing requirements to ../../build/battery_simulator/battery_simulator.egg-info/requires.txt
+[1.251s] writing top-level names to ../../build/battery_simulator/battery_simulator.egg-info/top_level.txt
+[1.268s] reading manifest file '../../build/battery_simulator/battery_simulator.egg-info/SOURCES.txt'
+[1.268s] writing manifest file '../../build/battery_simulator/battery_simulator.egg-info/SOURCES.txt'
+[1.268s] running build
+[1.268s] running build_py
+[1.268s] running install
+[1.272s] running install_lib
+[1.280s] running install_data
+[1.280s] running install_egg_info
+[1.289s] removing '/home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator-0.0.0-py3.12.egg-info' (and everything under it)
+[1.289s] Copying ../../build/battery_simulator/battery_simulator.egg-info to /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator-0.0.0-py3.12.egg-info
+[1.290s] running install_scripts
+[1.351s] Installing battery_charge_server script to /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/battery_simulator
+[1.352s] Installing battery_cmd_vel_filter script to /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/battery_simulator
+[1.352s] Installing battery_node script to /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/battery_simulator
+[1.352s] writing list of installed files to '/home/shaqiloheal/ros2_ws/build/battery_simulator/install.log'
+[1.390s] Invoked command in '/home/shaqiloheal/ros2_ws/src/battery_simulator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shaqiloheal/ros2_ws/build/battery_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_simulator build --build-base /home/shaqiloheal/ros2_ws/build/battery_simulator/build install --record /home/shaqiloheal/ros2_ws/build/battery_simulator/install.log --single-version-externally-managed install_data

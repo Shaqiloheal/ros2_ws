@@ -1,4 +1,4 @@
 <launch>
-    <node pkg="monitor" exec="battery_node_monitor" name="battery_node_monitor" output="screen" />
-    <node pkg="monitor" exec="charge_monitor" name="charge_monitor" output="screen" />
+    <node pkg="monitor" exec="battery_node_monitor_online" name="battery_monitor_online" output="screen" />
+    <node pkg="monitor" exec="charge_monitor_online" name="charge_monitor_online" output="screen" />
 </launch>
