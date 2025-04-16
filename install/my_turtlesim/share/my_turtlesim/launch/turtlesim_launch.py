@@ -34,4 +34,12 @@ def generate_launch_description():
             name='battery_charge_server',
             output='screen'
         ),
+
+        #(Optional) solar sensor
+        Node(
+            package='battery_simulator',
+            executable='solar_sensor_node',
+            name='solar_sensor_node',
+            output='screen'
+        ),
     ])

@@ -12,6 +12,7 @@ battery_simulator/__init__.py
 battery_simulator/battery_charge_server.py
 battery_simulator/battery_cmd_vel_filter.py
 battery_simulator/battery_node.py
+battery_simulator/solar_sensor_node.py
 resource/battery_simulator
 test/test_copyright.py
 test/test_flake8.py

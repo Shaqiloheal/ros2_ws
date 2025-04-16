@@ -1,7 +1,9 @@
+/home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator/solar_sensor_node.py
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator/battery_charge_server.py
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator/__init__.py
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator/battery_node.py
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator/battery_cmd_vel_filter.py
+/home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator/__pycache__/solar_sensor_node.cpython-312.pyc
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator/__pycache__/battery_charge_server.cpython-312.pyc
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator/__pycache__/__init__.cpython-312.pyc
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/python3.12/site-packages/battery_simulator/__pycache__/battery_node.cpython-312.pyc
@@ -18,3 +20,4 @@
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/battery_simulator/battery_charge_server
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/battery_simulator/battery_cmd_vel_filter
 /home/shaqiloheal/ros2_ws/install/battery_simulator/lib/battery_simulator/battery_node
+/home/shaqiloheal/ros2_ws/install/battery_simulator/lib/battery_simulator/solar_sensor_node

@@ -1,4 +1,6 @@
 ros2 action send_goal /charge_battery custom_action_interfaces/action/Charge "{target_percentage: 10.0}"
+ros2 run battery_simulator battery_charge_server 
+
 
 
 ros2 topic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}" --once
@@ -12,3 +14,5 @@ cd ~/ROSMonitoring3.0/oracle/RMLOracle/rml/
 
 
 ros2 run turtlesim turtle_teleop_key --ros-args -r turtle1/cmd_vel:=cmd_vel_in
+
+ros2 launch my_turtlesim turtlesim_launch.py

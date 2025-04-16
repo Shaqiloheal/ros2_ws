@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+# Author: Warren Spalding
+# Description:
+# This ROS 2 node is a runtime monitor designed to observe feedback and result messages
+# from a Charge Action server. It logs these messages to a local file in JSON format
+# for traceability and offline verification. This is useful for ensuring that
+# action-based robotic behaviors can be evaluated post hoc for specification violations
+# or unexpected runtime conditions.
+
 # ========================================
 # Import required modules
 # ========================================
@@ -10,36 +18,35 @@ import rclpy
 from rclpy.node import Node
 from threading import Lock
 
-# Import custom ROS2 messages
+# Custom monitoring message interfaces
 from rosmonitoring_interfaces.msg import MonitorError
 from std_msgs.msg import String
 
-# ========================================
-# IMPORT YOUR ACTION HERE (Charge)
-# ========================================
-from custom_action_interfaces.action import Charge  # The main Charge Action
-from custom_action_interfaces.action._charge import Charge_FeedbackMessage  # Feedback message
-from custom_action_interfaces.action._charge import Charge_GetResult_Response  # Result response
+# Import Charge Action and its internal message types
+from custom_action_interfaces.action import Charge
+from custom_action_interfaces.action._charge import Charge_FeedbackMessage
+from custom_action_interfaces.action._charge import Charge_GetResult_Response
 
 # ========================================
-# Define the Generic ROS2 Monitor Node specialized for Charge
+# Charge Action Monitor Node
 # ========================================
 
 class ROSMonitor_monitor_charge(Node):
     """
-    ROS2 Node to monitor feedback and result topics of the Charge Action server.
-    Logs feedback and results to a JSON file for offline analysis.
+    ROS 2 Node for monitoring the Charge Action.
+    Observes both feedback and result topics, converts them to JSON,
+    and logs them locally for runtime monitoring or offline inspection.
     """
 
     def __init__(self, monitor_name, log, actions, action_namespace):
         """
-        Initialize the monitor node, create publishers and subscribers.
+        Initializes the monitoring node with publishers and subscribers.
 
         Args:
             monitor_name (str): Name of the monitor node.
-            log (str): File path to save event logs.
-            actions (dict): Actions to monitor (for compatibility).
-            action_namespace (str): Namespace of the Charge Action (e.g., '/charge_battery')
+            log (str): Log file path to store feedback and result events.
+            actions (dict): Dictionary of actions being monitored (for compatibility).
+            action_namespace (str): Namespace used by the Charge action server.
         """
         super().__init__(monitor_name)
 
@@ -49,17 +56,15 @@ class ROSMonitor_monitor_charge(Node):
         self.action_namespace = action_namespace
 
         self.monitor_publishers = {}
-        self.ws_lock = Lock()
+        self.ws_lock = Lock()  # Lock to avoid race conditions in logging
 
-        # Create publishers for monitor events
+        # Monitor verdict and error publishers
         self.monitor_publishers['error'] = self.create_publisher(
-            MonitorError, self.name + '/monitor_error', 10
-        )
+            MonitorError, self.name + '/monitor_error', 10)
         self.monitor_publishers['verdict'] = self.create_publisher(
-            String, self.name + '/monitor_verdict', 10
-        )
+            String, self.name + '/monitor_verdict', 10)
 
-        # Subscribe to the Action's feedback topic
+        # Feedback subscriber from the Charge action server
         self.feedback_subscriber = self.create_subscription(
             Charge_FeedbackMessage,
             f"{self.action_namespace}/_action/feedback",
@@ -67,7 +72,7 @@ class ROSMonitor_monitor_charge(Node):
             10
         )
 
-        # Subscribe to the Action's result topic
+        # Result subscriber from the Charge action server
         self.result_subscriber = self.create_subscription(
             Charge_GetResult_Response,
             f"{self.action_namespace}/_action/result/response",
@@ -80,21 +85,21 @@ class ROSMonitor_monitor_charge(Node):
 
     def feedback_callback(self, feedback_msg):
         """
-        Callback for processing incoming feedback messages.
+        Callback that handles feedback messages from the Charge action.
 
         Args:
-            feedback_msg (Charge_FeedbackMessage): Received feedback.
+            feedback_msg (Charge_FeedbackMessage): Feedback message containing progress.
         """
         self.get_logger().info(f"Monitor observed feedback: {str(feedback_msg)}")
 
         feedback = feedback_msg.feedback
-
         data_dict = {
             'feedback': rosidl_runtime_py.message_to_ordereddict(feedback),
             'action': self.action_namespace,
             'time': float(self.get_clock().now().seconds_nanoseconds()[0])
         }
 
+        # Lock while writing to the log to avoid concurrency issues
         with self.ws_lock:
             self.logging(data_dict)
 
@@ -102,15 +107,14 @@ class ROSMonitor_monitor_charge(Node):
 
     def result_callback(self, result_msg):
         """
-        Callback for processing incoming result messages.
+        Callback that handles result messages from the Charge action.
 
         Args:
-            result_msg (Charge_GetResult_Response): Received result.
+            result_msg (Charge_GetResult_Response): Final result of the charge process.
         """
         self.get_logger().info(f"Monitor observed result: {str(result_msg)}")
 
         result = result_msg.result
-
         data_dict = {
             'result': rosidl_runtime_py.message_to_ordereddict(result),
             'action': self.action_namespace,
@@ -124,10 +128,10 @@ class ROSMonitor_monitor_charge(Node):
 
     def logging(self, json_dict):
         """
-        Writes the provided event dictionary to the log file in JSON format.
+        Write a dictionary of data to a log file in JSON format.
 
         Args:
-            json_dict (dict): Dictionary containing the event data to log.
+            json_dict (dict): Dictionary representing the event data.
         """
         try:
             with open(self.logfn, 'a+') as log_file:
@@ -142,22 +146,20 @@ class ROSMonitor_monitor_charge(Node):
 
 def main(args=None):
     """
-    Main entry point for running the Charge Action monitor node.
+    Entry point for running the Charge action monitor node.
     """
     rclpy.init(args=args)
 
-    # ===========================
-    # Modify these variables if needed
-    # ===========================
-    log = './log_battery.txt'  # Where to save the Charge action events
-    actions = {}
-    actions['/charge_battery'] = ('log', 0)
-    action_namespace = '/charge_battery'  # Must match the Charge action server's name exactly
+    # === Monitor configuration ===
+    log = './log_battery.txt'
+    actions = {'/charge_battery': ('log', 0)}
+    action_namespace = '/charge_battery'
 
+    # Launch the monitor
     monitor = ROSMonitor_monitor_charge('charge_monitor', log, actions, action_namespace)
-
     rclpy.spin(monitor)
 
+    # Clean shutdown
     monitor.destroy_node()
     rclpy.shutdown()
 
